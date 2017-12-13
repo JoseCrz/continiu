@@ -1,0 +1,17 @@
+.row {
+  border: 1px solid red;
+}
+
+.column {
+  border: 1px solid blue;
+}
+
+.menu-container {
+  background: #292F39;
+  color: #C30D53;
+  font-size: 20px;
+}
+
+.menu-container.row {
+  width: 100% !important;
+}
