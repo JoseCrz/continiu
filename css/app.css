@@ -101,5 +101,11 @@ h1 {
 
 #contactanos a {
 font-size: 40px;
+text-decoration: none;
+color: #5996AF;
+}
+
+#contactanos a:hover {
+  color: #63A497;
 }
 
