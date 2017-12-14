@@ -1,17 +1,49 @@
-.row {
-  border: 1px solid red;
+@font-face {
+  font-family: lovelo;
+  src: url("../fonts/Lovelo Line Light.otf")
 }
 
-.column {
-  border: 1px solid blue;
+.cover-container {
+  position: relative;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
-.menu-container {
-  background: #292F39;
-  color: #C30D53;
-  font-size: 20px;
+.cover-container img {
+  width: 100%;
+  height: 100%;
 }
 
-.menu-container.row {
-  width: 100% !important;
+
+
+.cover-container .bottom-content-section {
+  padding: 1rem;
+  position: absolute;
+  bottom: 20px;
 }
+
+.cover-container .bottom-content-section svg {
+  height: 3.75rem;
+  width: 3.75rem;
+  fill: #68AFCF;
+}
+
+#menu-container {
+  background-color: #272A2F;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 26px;
+  padding: 10px 10px;
+}
+
+#menu-contaier li a {
+  color: #D6105A;
+  text-decoration: none;
+}
+
+#menu-container li a:hover {
+  color: #DC678D;
+}
+
