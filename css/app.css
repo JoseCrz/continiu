@@ -19,7 +19,7 @@
 
 .logo-container {
   width: 500px;
-  margin: auto;
+  margin: 0 0 0 -70px;
   position: absolute;
   top: 0;
   font-family: lovelo;
@@ -27,8 +27,8 @@
 
 .logo-container p {
   text-align: center;
-  font-size: 7em;
-  margin: 20px 20px;
+  font-size: 8em;
+  margin: 20px 0 20px 0;
 }
 
 .logo-container a {
@@ -50,6 +50,7 @@
   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
   animation: neon2 1.5s ease-in-out infinite alternate;
+  margin: 0 22px;
 }
 
 
@@ -216,4 +217,5 @@ color: #5996AF;
 #contactanos a:hover {
   color: #63A497;
 }
+
 
