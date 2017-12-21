@@ -116,7 +116,7 @@
 
 /*REEEEEEEEEEESPONSIVE*/
 
-@media (max-width: 650px) {
+@media screen and (max-width: 650px) {
   .logo-container {
     width: 100%;
   }
@@ -124,9 +124,6 @@
     font-size: 3.5em;
   }
 }
-
-
-
 
 .cover-container .bottom-content-section {
   padding: 1rem;
@@ -228,10 +225,10 @@ color: #5996AF;
 it should always be at the center of the browser */
 .wrapper {
   position: absolute;
-  bottom: 25%;
+  bottom: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 625px;
+  width: 630px;
 }
 
 /* Style the Un-order list by setting its list-style to none */
@@ -367,6 +364,235 @@ to align it properly */
   }
   .wrapper ul li.google{
       margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .wrapper {
+    bottom: 20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .logo-container {
+    margin: 0 0 0 -20px;
+  }
+
+  .logo-container p {
+    font-size: 6.5em;
+  }
+
+  .wrapper {
+    bottom: 15%;
+  }
+
+}
+
+@media screen and (max-width: 750px) {
+  .wrapper {
+    bottom:7%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .logo-container {
+    margin: 0 0 0 -5px;
+  }
+
+  .logo-container p {
+    font-size: 5.5em;
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .logo-container p {
+    font-size: 4em;
+    margin-top: 15px;
+    margin-bottom: -35px;
+
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .logo-container p {
+    font-size: 3.5em;
+  }
+
+  .logo-container {
+    margin: 0 0 0 -2px;
+  }
+
+  #contactanos a {
+    font-size: 1.25em;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+#sign {
+  position: absolute;
+  bottom:45%;
+  margin: 0 0 0 -45px;
+}
+.sign {
+  text-align:center;
+  position:absolute;
+  border:5px solid #1086e8;
+  width:400px;
+  top:150px;
+  border-radius:20px;
+  left:50%;
+  margin: -50px 0 0 -162px;
+}
+
+.sign h1 {
+  color:#FEFF3C;
+  font-family: 'Raleway', sans-serif;
+  font-size:64px;
+  letter-spacing:10px;
+  animation: letter-flicker 3s linear infinite;
+}
+
+#offset {
+  animation: letter-flicker 3s linear infinite;
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1);
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px rgba(242, 22, 22, 1);
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+
+  70% {
+    opacity:0.7;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+
+  72% {
+    opacity:0.2;
+    text-shadow:0px 0px 29px rgba(242, 22, 22, 1)
+  }
+
+  77% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+  100% {
+    opacity:.9;
+    text-shadow: 0px 0px 29px rgba(242, 22, 22, 1)
+  }
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  2% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  4% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+
+  8% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  70% {
+    opacity:0.7;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+  100% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+-moz-box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
+  }
+}
+
+@keyframes letter-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+  2% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+  4% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+
+
+  19% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+  21% {
+    opacity:0.1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+  23% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+
+  80% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+  83% {
+    opacity:0.4;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
+  }
+  87% {
+    opacity:1;
+    text-shadow: 0px 0px 29px rgba(255, 247, 0, 1);
   }
 }
 
