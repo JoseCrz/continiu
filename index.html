@@ -31,7 +31,9 @@
           <div class="show-for-large-up row " id="sign">
             <div class="column">
               <div class="sign" id="text">
-                  <a href="#"><h1>CO<span id="offset">N</span>OCE</h1></a>
+                <nav data-magellan>
+                  <a href="#que-es"><h1>CO<span id="offset">N</span>OCE</h1></a>
+                </nav>
               </div>
             </div>
           </div>
@@ -41,18 +43,22 @@
     <!-- /FULL SCREEN HERO -->
 
       <!-- MENU -->
-      <section id="menu-container">
-        <ul class="menu align-spaced">
-          <li><a href="#">¿Qué es?</a></li>
-          <li><a href="#">¿Quiénes somos?</a></li>
-          <li><a href="#">Escúchanos</a></li>
-          <li><a href="#">Contáctanos</a></li>
-        </ul>
+      <section id="scrollSticky" data-sticky-container>
+        <div class="data-sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+          <nav id="menu-container" data-magellan>
+            <ul class="menu align-spaced">
+              <li><a href="#que-es">¿Qué es?</a></li>
+              <li><a href="#quienes-container">¿Quiénes somos?</a></li>
+              <li><a href="#escuchanos">Escúchanos</a></li>
+              <li><a href="#contactanos">Contáctanos</a></li>
+            </ul>
+          </nav>
+        </div>
       </section>
       <!-- /MENU -->
 
       <!-- QUÉ ES -->
-      <section id="que-es" class="fondo-2">
+      <section id="que-es" class="fondo-2" data-magellan-target="que-es">
         <div class="row align-center">
           <div class="column small-12 shrink">
             <h1 class="titulo">¿Qué es Continiu?</h1>
@@ -75,7 +81,7 @@
       <!-- /QUÉ ES -->
 
       <!-- QUIENES SOMOS -->
-      <section id="quienes-container" class="fondo-1">
+      <section id="quienes-container" class="fondo-1" data-magellan-target="quienes-container">
         <div class="row align-center">
           <div class="column small-12 shrink">
             <h1 class="titulo">¿Quiénes somos?</h1>
@@ -95,7 +101,7 @@
       <!-- /QUIENES SOMOS -->
 
       <!-- ESCUCHANOS -->
-      <section id="escuchanos" class="fondo-2">
+      <section id="escuchanos" class="fondo-2" data-magellan-target="escuchanos">
           <div class="row align-center">
             <div class="column small-12 shrink">
               <h1 class="titulo">¡Escúchanos!</h1>
@@ -120,7 +126,7 @@
         <!-- /ESCUCHANOS -->
 
         <!-- CONTACTANOS -->
-        <section id="contactanos" class="fondo-1">
+        <section id="contactanos" class="fondo-1" data-magellan-target="contactanos">
           <div class="row align-center">
             <div class="column small-12 shrink">
               <h1 class="titulo">¡Contáctanos!</h1>

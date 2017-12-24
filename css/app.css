@@ -220,6 +220,8 @@
 }
 
 .hot {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
   width: 100%;
   height: 64px;
   border-radius: 6px;
