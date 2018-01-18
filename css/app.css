@@ -543,6 +543,15 @@ box-shadow: 0px 0px 78px 4px rgba(16,134,232,0.73);
   border-radius: 5%;
 }
 
+#offCanvas {
+  background-color: #343A44;
+}
+
+#offCanvas li a {
+  font-size: 22px;
+  margin: 15px;
+}
+
 /* media queries */
 
 

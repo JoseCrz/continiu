@@ -11,42 +11,12 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   </head>
   <body>
-    <!-- FULL SCREEN HERO -->
-      <div class="cover-container">
-        <img src="./img/bricks.jpg" alt="">
-          <div class="logo-container">
-            <p><a href="#"><strong>CONTINIU</strong></a></p>
-            <p><a href="#"><strong>PODCAST</strong></a></p>
-          </div>
-          <div class="wrapper hide-for-small-only">
-            <ul>
-              <li class="soundcloud"><a href="https://soundcloud.com/continiumedia" target="_blank"><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a></li>
-              <li class="twitter"><a href="https://twitter.com/ContiniuMedia" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
-              <li class="facebook"><a href="https://www.facebook.com/ContiniuMedia/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
-              <li class="instagram"><a href="https://www.instagram.com/continiumedia/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-              <li class="apple"><a href="#" target="_blank"><i class="fa fa-apple fa-2x" aria-hidden="true"></i></a></li>
-              <li class="youtube"><a href="https://www.youtube.com/channel/UCVgFXvrg5VttiThM9jBuMNw/videos" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
-            </ul>
-          </div>
-          <div class="show-for-large-up row " id="sign">
-            <div class="column">
-              <div class="sign" id="text">
-                <nav data-magellan>
-                  <a href="#que-es"><h1>CO<span id="offset">N</span>OCE</h1></a>
-                </nav>
-              </div>
-            </div>
-          </div>
-
-      </div>
-
-    <!-- /FULL SCREEN HERO -->
-
-      <!-- MENU -->
-      <section id="scrollSticky" data-sticky-container>
-        <div class="data-sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
-          <nav id="menu-container" data-magellan>
-            <ul class="menu align-spaced">
+    <!-- OFF CANVAS MENU -->
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+        <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
+          <nav data-magellan>
+            <ul class="vertical menu">
               <li><a href="#que-es">¿Qué es?</a></li>
               <li><a href="#quienes-container">¿Quiénes somos?</a></li>
               <li><a href="#escuchanos">Escúchanos</a></li>
@@ -54,97 +24,153 @@
             </ul>
           </nav>
         </div>
-      </section>
-      <!-- /MENU -->
 
-      <!-- QUÉ ES -->
-      <section id="que-es" class="fondo-2" data-magellan-target="que-es">
-        <div class="row align-center">
-          <div class="column small-12 shrink">
-            <h1 class="titulo">¿Qué es Continiu?</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="column small-12 medium-6">
-            <img src="./img/que.jpg" alt="Juegos">
-          </div>
-          <div class="column small-12 medium-6">
-            <div class="texto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus et mi non pulvinar. Praesent faucibus varius lacus, vel venenatis dolor tristique in. Nulla fringilla nunc vitae turpis tristique posuere tincidunt in arcu. Cras nulla magna, auctor in sollicitudin et, varius vel odio. Praesent justo risus, sagittis vitae vulputate ac, vehicula non diam.
-            </div>
-          </div>
-
-        </div>
-
-      </section>
-
-      <!-- /QUÉ ES -->
-
-      <!-- QUIENES SOMOS -->
-      <section id="quienes-container" class="fondo-1" data-magellan-target="quienes-container">
-        <div class="row align-center">
-          <div class="column small-12 shrink">
-            <h1 class="titulo">¿Quiénes somos?</h1>
-          </div>
-        </div>
-        <div class="row text-center">
-          <div class="descripcion column small-12 medium-6 large-6">
-            <img class="imagen" src="./img/cottin.jpg" alt="Cottin">
-            <div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus vulputate. Integer pretium, tortor pretium laoreet tincidunt, lacus neque fringilla odio, et sollicitudin massa tortor et mi. Aenean felis mauris, malesuada a odio vitae, efficitur accumsan turpis. Proin euismod ut eros non euismod.</div>
-          </div>
-          <div class="descripcion column small-12 medium-6 large-6">
-              <img class="imagen" src="./img/cottin.jpg" alt="Cottin">
-              <div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus vulputate. Integer pretium, tortor pretium laoreet tincidunt, lacus neque fringilla odio, et sollicitudin massa tortor et mi. Aenean felis mauris, malesuada a odio vitae, efficitur accumsan turpis. Proin euismod ut eros non euismod.</div>
-            </div>
-        </div>
-      </section>
-      <!-- /QUIENES SOMOS -->
-
-      <!-- ESCUCHANOS -->
-      <section id="escuchanos" class="fondo-2" data-magellan-target="escuchanos">
-          <div class="row align-center">
-            <div class="column small-12 shrink">
-              <h1 class="titulo">¡Escúchanos!</h1>
-            </div>
-          </div>
-          <div class="row align-center">
-            <div class="column small-12 medium-10 large-8">
-                <div class="video-responsive-contenedor">
-                    <iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/d1z9AbZxJ4M" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        <div class="off-canvas-content" data-off-canvas-content>
+          <!-- FULL SCREEN HERO -->
+            <div class="cover-container">
+              <img src="./img/bricks.jpg" alt="">
+                <div class="logo-container">
+                  <p><a href="#"><strong>CONTINIU</strong></a></p>
+                  <p><a href="#"><strong>PODCAST</strong></a></p>
                 </div>
+                <div class="wrapper hide-for-small-only">
+                  <ul>
+                    <li class="soundcloud"><a href="https://soundcloud.com/continiumedia" target="_blank"><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/ContiniuMedia" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/ContiniuMedia/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/continiumedia/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="apple"><a href="#" target="_blank"><i class="fa fa-apple fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/channel/UCVgFXvrg5VttiThM9jBuMNw/videos" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+                <div class="show-for-large-up row " id="sign">
+                  <div class="column">
+                    <div class="sign" id="text">
+                      <nav data-magellan>
+                        <a href="#que-es"><h1>CO<span id="offset">N</span>OCE</h1></a>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+      
             </div>
-          </div>
-          <div class="row align-center">
-            <div class="column small-12 medium-6 large-4">
-              <div class="hot">
-                Suscríbete
+      
+          <!-- /FULL SCREEN HERO -->
+      
+            <!-- MENU -->
+            <section id="scrollSticky" data-sticky-container>
+              <div id="sticky" class="data-sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+                <nav id="menu-container" data-magellan>
+                  <ul class="menu align-spaced show-for-small-only">
+                    <li><a href="#" data-toggle="offCanvas">Menú</a></li>
+                  </ul>
+                  <ul class="menu align-spaced show-for-medium">
+                    <li><a href="#que-es">¿Qué es?</a></li>
+                    <li><a href="#quienes-container">¿Quiénes somos?</a></li>
+                    <li><a href="#escuchanos">Escúchanos</a></li>
+                    <li><a href="#contactanos">Contáctanos</a></li>
+                  </ul>
+                </nav>
               </div>
-            </div>
-
-          </div>
-        </section>
-        <!-- /ESCUCHANOS -->
-
-        <!-- CONTACTANOS -->
-        <section id="contactanos" class="fondo-1" data-magellan-target="contactanos">
-          <div class="row align-center">
-            <div class="column small-12 shrink">
-              <h1 class="titulo">¡Contáctanos!</h1>
-            </div>
-          </div>
-          <div class="row align-center text-center">
-            <div class="column small-12 medium-10 large-8">
-              Queremos escucharte. ¿Tienes alguna inquietud? ¿Te gustaría que hablaramos de un tema de tu interes? ¡Mandanos un correo y con gusto lo leeremos!
-            </div>
-          </div>
-          <div class="row align-center text-center">
-              <div class="column small-12 medium-10 large-8">
-                <a href="mailto:contacto@continiu.com"><strong>Escribenos: </strong><span>contacto@continiu.com</span></a>
+            </section>
+            <!-- /MENU -->
+      
+            <!-- QUÉ ES -->
+            <section id="que-es" class="fondo-2" data-magellan-target="que-es">
+              <div class="row align-center">
+                <div class="column small-12 shrink">
+                  <h1 class="titulo">¿Qué es Continiu?</h1>
+                </div>
               </div>
-            </div>
-        </section>
+              <div class="row">
+                <div class="column small-12 medium-6">
+                  <img src="./img/que.jpg" alt="Juegos">
+                </div>
+                <div class="column small-12 medium-6">
+                  <div class="texto">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus et mi non pulvinar. Praesent faucibus varius lacus, vel venenatis dolor tristique in. Nulla fringilla nunc vitae turpis tristique posuere tincidunt in arcu. Cras nulla magna, auctor in sollicitudin et, varius vel odio. Praesent justo risus, sagittis vitae vulputate ac, vehicula non diam.
+                  </div>
+                </div>
+      
+              </div>
+      
+            </section>
+      
+            <!-- /QUÉ ES -->
+      
+            <!-- QUIENES SOMOS -->
+            <section id="quienes-container" class="fondo-1" data-magellan-target="quienes-container">
+              <div class="row align-center">
+                <div class="column small-12 shrink">
+                  <h1 class="titulo">¿Quiénes somos?</h1>
+                </div>
+              </div>
+              <div class="row text-center">
+                <div class="descripcion column small-12 medium-6 large-6">
+                  <img class="imagen" src="./img/cottin.jpg" alt="Cottin">
+                  <div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus vulputate. Integer pretium, tortor pretium laoreet tincidunt, lacus neque fringilla odio, et sollicitudin massa tortor et mi. Aenean felis mauris, malesuada a odio vitae, efficitur accumsan turpis. Proin euismod ut eros non euismod.</div>
+                </div>
+                <div class="descripcion column small-12 medium-6 large-6">
+                    <img class="imagen" src="./img/cottin.jpg" alt="Cottin">
+                    <div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus vulputate. Integer pretium, tortor pretium laoreet tincidunt, lacus neque fringilla odio, et sollicitudin massa tortor et mi. Aenean felis mauris, malesuada a odio vitae, efficitur accumsan turpis. Proin euismod ut eros non euismod.</div>
+                  </div>
+              </div>
+            </section>
+            <!-- /QUIENES SOMOS -->
+      
+            <!-- ESCUCHANOS -->
+            <section id="escuchanos" class="fondo-2" data-magellan-target="escuchanos">
+                <div class="row align-center">
+                  <div class="column small-12 shrink">
+                    <h1 class="titulo">¡Escúchanos!</h1>
+                  </div>
+                </div>
+                <div class="row align-center">
+                  <div class="column small-12 medium-10 large-8">
+                      <div class="video-responsive-contenedor">
+                          <iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/d1z9AbZxJ4M" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                      </div>
+                  </div>
+                </div>
+                <div class="row align-center">
+                  <div class="column small-12 medium-6 large-4">
+                    <div class="hot">
+                      Suscríbete
+                    </div>
+                  </div>
+      
+                </div>
+              </section>
+              <!-- /ESCUCHANOS -->
+      
+              <!-- CONTACTANOS -->
+              <section id="contactanos" class="fondo-1" data-magellan-target="contactanos">
+                <div class="row align-center">
+                  <div class="column small-12 shrink">
+                    <h1 class="titulo">¡Contáctanos!</h1>
+                  </div>
+                </div>
+                <div class="row align-center text-center">
+                  <div class="column small-12 medium-10 large-8">
+                    Queremos escucharte. ¿Tienes alguna inquietud? ¿Te gustaría que hablaramos de un tema de tu interes? ¡Mandanos un correo y con gusto lo leeremos!
+                  </div>
+                </div>
+                <div class="row align-center text-center">
+                    <div class="column small-12 medium-10 large-8">
+                      <a href="mailto:contacto@continiu.com"><strong>Escribenos: </strong><span>contacto@continiu.com</span></a>
+                    </div>
+                  </div>
+              </section>
+      
+              <!-- /CONTACTANOS -->
+          
+        </div>
 
-        <!-- /CONTACTANOS -->
+      </div>
+    </div>
+
+    <!-- /OFF CANVAS MENU -->
+    
 
 
 
