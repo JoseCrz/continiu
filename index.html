@@ -84,12 +84,12 @@
               </div>
               <div class="row">
                 <div class="column small-12 medium-6">
-                  <img src="./img/que.jpg" alt="Juegos">
+                  <img class="b-lazy" data-src="./img/que.jpg" alt="Juegos">
                 </div>
                 <div class="column small-12 medium-6">
                   <div class="texto">
                      <p class="descripcion">Continiu Podcast es un proyecto independiente que nace del amor de 2 apasionados de los videojuegos; Eugenio y José.</p>
-                     <p class="descripcion">Continiu es esa platica informal y chusca que tienes con tus amigos, es esa opinion desmedida y a veces sin sentido que te pasa por la cabeza cuando estás jugando, es lo que sentiste cuando jugaste por primera vez aquel juego que te hizo entrar a este maravilloso mundo.</p>
+                     <p class="descripcion">Continiu es esa platica informal y chusca que tienes con tus amigos, es esa opinión desmedida y a veces sin sentido que te pasa por la cabeza cuando estás jugando, es lo que sentiste cuando jugaste por primera vez aquel juego que te hizo entrar a este maravilloso mundo.</p>
                      <p class="descripcion">Una búsqueda por enaltecer este medio interactivo que tanto amamos.</p>
                   </div>
                 </div>
@@ -109,11 +109,11 @@
               </div>
               <div class="row text-center">
                 <div class="descripcion column small-12 medium-6 large-6">
-                  <img class="imagen" src="./img/cottin.jpg" alt="Eugenio">
+                  <img class=" b-lazy imagen" data-src="./img/cottin.jpg" alt="Eugenio">
                   <div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus maximus vulputate. Integer pretium, tortor pretium laoreet tincidunt, lacus neque fringilla odio, et sollicitudin massa tortor et mi. Aenean felis mauris, malesuada a odio vitae, efficitur accumsan turpis. Proin euismod ut eros non euismod.</div>
                 </div>
                 <div class="descripcion column small-12 medium-6 large-6">
-                    <img class="imagen" src="./img/byko.jpg" alt="José">
+                    <img class=" b-lazy imagen" data-src="./img/byko.jpg" alt="José">
                     <div class="texto">Amante de los videojuegos, apasionado de la cerveza y entusiasta del cine. Abierto a probar todo tipo de juegos con cierta inclinación por action-adventure. Nintendero de corazón. Ōkami, FEZ, The World Ends With You y por supuesto, Ocarina of Time. <a href="https://twitter.com/Jose_Crz" target="_blank">@Jose_Crz</a></div>
                   </div>
               </div>
@@ -130,7 +130,7 @@
                 <div class="row align-center">
                   <div class="column small-12 medium-10 large-8">
                       <div class="video-responsive-contenedor">
-                          <iframe class="video-responsive-src" width="560" height="315" src="https://www.youtube.com/embed/1V30PJzPlMQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                          <iframe class="b-lazy video-responsive-src" width="560" height="315" data-src="https://www.youtube.com/embed/1V30PJzPlMQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                       </div>
                   </div>
                 </div>
@@ -172,11 +172,13 @@
     </div>
 
     <!-- /OFF CANVAS MENU -->
-    
-
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+    <script>
+      ;(function() {
+          // Initialize
+          var bLazy = new Blazy();
+      })();
+  </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
