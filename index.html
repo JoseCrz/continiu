@@ -16,11 +16,22 @@
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
         <div id="offCanvas" class="off-canvas position-left" data-off-canvas>
           <nav data-magellan>
-            <ul class="vertical menu">
+            <ul class="vertical menu drilldown" data-drilldown>
               <li><a href="#que-es">¿Qué es?</a></li>
               <li><a href="#quienes-container">¿Quiénes somos?</a></li>
               <li><a href="#escuchanos">Escúchanos</a></li>
               <li><a href="#contactanos">Contáctanos</a></li>
+              <li>
+                <a href="#">Redes Sociales</a>
+                <ul class="vertical menu nested">
+                    <li class="soundcloud"><a href="https://soundcloud.com/continiumedia" target="_blank"><i class="fa fa-soundcloud fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/ContiniuMedia" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/ContiniuMedia/" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/continiumedia/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="apple"><a href="#" target="_blank"><i class="fa fa-apple fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="youtube"><a href="https://www.youtube.com/channel/UCVgFXvrg5VttiThM9jBuMNw/videos" target="_blank"><i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
@@ -74,7 +85,7 @@
               </div>
             </section>
             <!-- /MENU -->
-      
+
             <!-- QUÉ ES -->
             <section id="que-es" class="fondo-2" data-magellan-target="que-es">
               <div class="row align-center">
@@ -178,10 +189,10 @@
           // Initialize
           var bLazy = new Blazy();
       })();
-  </script>
+    </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
-  </body>
+  </body>  
 </html>
